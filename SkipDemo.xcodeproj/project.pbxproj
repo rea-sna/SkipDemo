@@ -15,6 +15,8 @@
 		45B36440261C65310054B866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B3643E261C65310054B866 /* LaunchScreen.storyboard */; };
 		45B3644B261C65310054B866 /* SkipDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B3644A261C65310054B866 /* SkipDemoTests.swift */; };
 		45B36456261C65310054B866 /* SkipDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B36455261C65310054B866 /* SkipDemoUITests.swift */; };
+		45B36467261C67440054B866 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B36466261C67440054B866 /* FirstViewController.swift */; };
+		45B3646C261C6B970054B866 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B3646B261C6B970054B866 /* PushViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		45B36451261C65310054B866 /* SkipDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkipDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B36455261C65310054B866 /* SkipDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipDemoUITests.swift; sourceTree = "<group>"; };
 		45B36457261C65310054B866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B36466261C67440054B866 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		45B3646B261C6B970054B866 /* PushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 			children = (
 				45B36433261C65300054B866 /* AppDelegate.swift */,
 				45B36435261C65300054B866 /* SceneDelegate.swift */,
-				45B36437261C65300054B866 /* ViewController.swift */,
 				45B36439261C65300054B866 /* Main.storyboard */,
+				45B36466261C67440054B866 /* FirstViewController.swift */,
+				45B36437261C65300054B866 /* ViewController.swift */,
+				45B3646B261C6B970054B866 /* PushViewController.swift */,
 				45B3643C261C65310054B866 /* Assets.xcassets */,
 				45B3643E261C65310054B866 /* LaunchScreen.storyboard */,
 				45B36441261C65310054B866 /* Info.plist */,
@@ -261,6 +267,8 @@
 				45B36438261C65300054B866 /* ViewController.swift in Sources */,
 				45B36434261C65300054B866 /* AppDelegate.swift in Sources */,
 				45B36436261C65300054B866 /* SceneDelegate.swift in Sources */,
+				45B3646C261C6B970054B866 /* PushViewController.swift in Sources */,
+				45B36467261C67440054B866 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
