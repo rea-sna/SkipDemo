@@ -2,7 +2,7 @@
 //  SkipDemoUITests.swift
 //  SkipDemoUITests
 //
-//  Created by 繁野怜央 on 2021/04/06.
+//  Created by Reo.S on 2021/04/06.
 //
 
 import XCTest
